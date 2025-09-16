@@ -48,5 +48,5 @@ It can be proved that it is not possible to get a score greater than 2.
 In the third test case, you will perform the move thrice, adding 1 to the score each time.
 
 ===============================================================  
-Arquivo gen: gerador de casos
+Arquivo gen: gerador de casos  
 arquivo b: código da questão
