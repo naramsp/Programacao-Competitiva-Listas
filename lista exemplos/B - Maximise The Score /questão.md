@@ -2,8 +2,8 @@ There are 2n positive integers written on a whiteboard. Being bored, you decided
 
 You start with a score of 0. You will increase your score by performing the following move **exactly** *n* times:
 
->Choose two integers xx and yy that are written on the whiteboard.
->Add min⁡(x,y)min(x,y) to your score.
+>Choose two integers x and y that are written on the whiteboard.
+>Add min⁡(x,y) to your score.
 >Erase xx and yy from the whiteboard. 
 
 Note that after performing the move n times, there will be no more integers written on the whiteboard.
@@ -21,18 +21,18 @@ For each test case, output the maximum final score that you can achieve.
 
 ## exemple:
 ### input
-3
-1
-2 3
-2
-1 1 2 1
-3
-1 1 1 1 1 1
+3  
+1  
+2 3  
+2  
+1 1 2 1   
+3  
+1 1 1 1 1 1  
 
 ### output
-2
-2
-3
+2  
+2  
+3  
 
 ## Note
 
@@ -46,3 +46,7 @@ In the second test case, the following is a sequence of moves that achieves a fi
 It can be proved that it is not possible to get a score greater than 2.
 
 In the third test case, you will perform the move thrice, adding 1 to the score each time.
+
+===============================================================  
+Arquivo gen: gerador de casos
+arquivo b: código da questão
